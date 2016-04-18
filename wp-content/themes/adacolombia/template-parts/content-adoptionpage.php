@@ -65,12 +65,7 @@ if( have_rows('adoption_page') ):
 			<li><?php the_sub_field( 'pet_declawed' ); ?></li>
 			<li><?php the_sub_field( 'pet_story' ); ?></li>
 		</ul>
-		<ul id="ctainformation">
-			<li><?php the_sub_field( 'cta_title' ); ?></li>
-			<li><?php the_sub_field( 'cta_subtitle' ); ?></li>
-			<li><?php the_sub_field( 'cta_content' ); ?></li>
-		</ul>
-		<a class="ctabutton" href="<?php the_sub_field( 'cta_link_button' ); ?>">Donate</a>
+		
 <?php
     endwhile;
 
@@ -81,6 +76,13 @@ else :
 endif;
 
 ?>	
+</div>
+<div>
+<ul id="ctainformation-adoption">
+			<li><?php the_field( 'cta_title' ); ?></li>
+			<li><?php the_field( 'cta_content' ); ?></li>
+		</ul>
+		<a class="ctabutton" href="<?php the_field( 'cta_link_button' ); ?>">Donate</a>
 </div>
 	<div class="backgroundwidth" id="image-content6" style="background-image: url('<?php the_field('background_image'); ?>');"></div>
 </div>

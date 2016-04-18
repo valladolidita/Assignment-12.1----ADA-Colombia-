@@ -41,7 +41,7 @@
 <body <?php body_class(); ?>>
 	<header>
 		<h1><?php bloginfo( 'name' ); ?></h1>
-		<h2><?php bloginfo( 'description' ); ?></h2>
+		<h1><?php bloginfo( 'description' ); ?></h1>
 			<nav>
 				<ul>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>

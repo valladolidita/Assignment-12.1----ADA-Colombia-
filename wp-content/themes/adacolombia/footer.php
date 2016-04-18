@@ -21,13 +21,16 @@
 				<li><a href="#">Donate</a></li>
 				<li><a href="#">Hours</a></li>
 				<li><a href="#">Contact</a></li>
-				<li><a href="#"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-vimeo-square fa-3x" aria-hidden="true"></i></a></li>
-				<li>&copy; 2016 ADA Colombia</li>
+				<li><a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-vimeo-square fa-2x" aria-hidden="true"></i></a></li>
 			</ul>
 		</nav>
+
 	</footer><!-- #colophon -->
+	<div id="copy-right">
+		<p>&copy; 2016 ADA Colombia</p>
+	</div>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
