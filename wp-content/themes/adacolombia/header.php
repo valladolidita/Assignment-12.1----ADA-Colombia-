@@ -40,6 +40,7 @@
 
 <body <?php body_class(); ?>>
 	<header>
+		<h1><img src="img/adaiconpurple.png" alt="ADA Colombia"></h1>
 		<h1><?php bloginfo( 'name' ); ?></h1>
 		<h1><?php bloginfo( 'description' ); ?></h1>
 			<nav>
