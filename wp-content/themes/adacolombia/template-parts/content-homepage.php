@@ -4,17 +4,18 @@
  */
 get_header(); ?>
 
-<div id="main-content" class="main-content">
+	<div id="adoptionpage1"> 
 
 	<div id="primary1" class="content-area">
 		<div id="content1">
 				
 			<h1><?php the_field('image_caption_1'); ?></h1>
 			<h2><?php the_field('image_sub_caption_1'); ?></h2>
+			<h2><a href="<?php the_field( 'image_caption_1_link' ); ?>">Frida’s Story</a></h2>
 				
 				<?php $image = get_field('image_1');?>
 
-		<div class="backgroundwidth" id="image-content1" style="background-image: url('<?php the_field('image_1'); ?>');">
+		<div id="image-content1" style="background-image: url('<?php the_field('image_1'); ?>');">
 	</div>
 	</div>	
 	</div>
@@ -24,10 +25,11 @@ get_header(); ?>
 				
 			<h1><?php the_field('image_caption_2'); ?></h1>
 			<h2><?php the_field('image_sub_caption_2'); ?></h2>
+			<h2><a href="<?php the_field( 'image_caption_2_link' ); ?>">Read about the adoption process</a></h2>
 				
 				<?php $image = get_field('image_2');?>
 
-		<div class="backgroundwidth" id="image-content2" style="background-image: url('<?php the_field('image_2'); ?>');">
+		<div id="image-content2" style="background-image: url('<?php the_field('image_2'); ?>');">
 	</div>
 	</div>	
 	</div>
@@ -37,39 +39,46 @@ get_header(); ?>
 				
 			<h1><?php the_field('image_caption_3'); ?></h1>
 			<h2><?php the_field('image_sub_caption_3'); ?></h2>
+			<h2><a href="<?php the_field( 'image_caption_2_link' ); ?>">Volunteer with us</a></h2>
 				
 				<?php $image = get_field('image_3');?>
 
-		<div class="backgroundwidth" id="image-content3" style="background-image: url('<?php the_field('image_3'); ?>');">
+		<div id="image-content3" style="background-image: url('<?php the_field('image_3'); ?>');">
 	</div>
 	</div>	
 	</div>
 
-	<div id="primary4" class="content-area">
-		<div id="content4">
-				
-			<h1><?php the_field('image_caption_4'); ?></h1>
-			<h2><?php the_field('image_sub_caption_4'); ?></h2>
-				
-				<?php $image = get_field('image_4');?>
+		<div id="content-area">
+	<?php
 
-		<div class="backgroundwidth" id="image-content4" style="background-image: url('<?php the_field('image_4'); ?>');">
-	</div>
-	</div>	
-	</div>
+// check if the repeater field has rows of data
+if( have_rows('cta_repeater') ):
 
-	<div id="primary5" class="content-area">
-		<div id="content5">
-				
-			<h1><?php the_field('image_caption_5'); ?></h1>
-			<h2><?php the_field('image_sub_caption_5'); ?></h2>
-				
-				<?php $image = get_field('image_5');?>
+ 	// loop through the rows of data
+    while ( have_rows('cta_repeater') ) : the_row();
+?>
+		<ul>
+			<li><?php the_sub_field( 'cta_icon' ); ?></li>
+			<li><?php the_sub_field( 'cta_title' ); ?></li>
+			<li><?php the_sub_field( 'cta_subtitle' ); ?></li>
+			<li><a href="<?php the_field( 'cta_link_button' ); ?>">View Cats</a></li>
+		</ul>
+		
+<?php
+    endwhile;
 
-		<div class="backgroundwidth" id="image-content5" style="background-image: url('<?php the_field('image_5'); ?>');">
-	</div>
-	</div>	
-	</div>
+else :
+
+    // no rows found
+
+endif;
+
+?>	
+</div>
+
+<div>
+	<div class="backgroundwidth" id="image-content6" style="background-image: url('<?php the_field('background_image'); ?>');"></div>
+</div>
 
 <?php
 get_footer();

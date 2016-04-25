@@ -100,7 +100,7 @@ template {
 }
 
 a {
-	background-color: transparent;
+	/*background-color: transparent;*/
 	color: 	#808080;
 }
 
@@ -619,7 +619,6 @@ a:active {
 .main-navigation {
 	clear: both;
 	display: block;
-	float: left;
 	width: 100%;
 }
 
@@ -631,8 +630,8 @@ a:active {
 }
 
 .main-navigation li {
-	float: left;
-	position: relative;
+/*	float: left; */
+/*	position: relative;*/
 }
 
 .main-navigation a {
@@ -901,15 +900,16 @@ header {
 	/*top: 0;
 	left: 0;*/
 	background-color: #9d3f97;
-	height: 15em;
+	height: auto;
 	margin: 0;
 	width: 100%;
-	padding: 5% 10% 0 10%;
+	padding: 2% 10% 0 10%;
 }
 
 header h1 {
 	font-family:'Lato';
 	font-weight: 700;
+	font-size: 1.25em;
 	line-height: 1em;
 	color: white;
 	margin: 0;
@@ -932,11 +932,11 @@ header h1 {
 	text-align: center;
 	padding: 5%;
 	/*border: solid red 2px;*/
-	margin: 0;
+	height: auto;
 }
 
 #primary-menu ul {
-		width: 100%;
+		/*width: 100%;*/
 }
 
 #primary-menu li{
@@ -944,7 +944,7 @@ header h1 {
 	text-transform: uppercase;
 	text-decoration: none;
 	display: inline;
-	padding: 3%;
+	padding: 1% 2%;
 }
 
 #primary-menu li:nth-child(4){
@@ -956,9 +956,9 @@ header h1 {
 --------------------------------------------------------------*/
 .backgroundwidth {
 	position: absolute;
-	height: 960px;
+	height: 100%;
 	width: 100%;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	z-index: -1;
 	background-size: cover;
 }
@@ -966,6 +966,8 @@ header h1 {
 #image-content1 {
 	top: 0;
 	right: 0;
+	width: 70%;
+	height: auto;
 }
 
 #image-content2 {
@@ -1148,8 +1150,9 @@ header h1 {
 --------------------------------------------------------------*/
 #adoptionpage1 {
 	background-color: white;
-	height: 100%; 
-	margin-top: 0;
+	height: 100%;
+	/*width: 80%;*/
+	margin: 3% 8%;
 	padding: 30px;
 }
 #image-gallery {
@@ -1315,10 +1318,11 @@ float:left;
 	font-weight: 900;
 	font-size: .85em;
 	text-transform: uppercase;
+	color: #903F97;
 }
 
 .ctabutton a {
-	color:#903F97;
+	color: #903F97;
 }
 
 

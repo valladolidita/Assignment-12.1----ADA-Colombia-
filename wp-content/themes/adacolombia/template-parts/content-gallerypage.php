@@ -3,33 +3,11 @@
  * Template Name: content-gallerypage
  */
 
+
+
 get_header(); ?>
-	
 
-	<div id="adoptionpage1">
-	
-		<div id="image-gallery">
-
-			<?php 
-
-			$images = get_field('gallery_thumbnails');
-
-				if( $images ): ?>
-				    
-				    <ul id="thumbnail-gallery">
-				    <?php foreach( $images as $image ): ?>
-				            <li>
-				                <a data-img="<?php echo $image['alt']; ?>">
-				                     <img src="<?php echo $image['sizes']['thumbnail']; ?>" alt="<?php echo $image['alt']; ?>" />
-				                </a>
-				            </li>
-				        <?php endforeach; ?>
-				    </ul>
-				
-
-				<?php endif; ?>
-		</div>
-
+<div id="adoptionpage1">
 
 <?php if( have_rows('gallerypage_thumbnail') ): ?>
 
@@ -50,7 +28,7 @@ get_header(); ?>
 				<a href="<?php echo $link; ?>">
 			<?php endif; ?>
 
-				<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" />
+				<img src="<?php echo $image['sizes']['thumbnail']; ?>" alt="<?php echo $image['alt'] ?>" />
 
 			<?php if( $link ): ?>
 				</a>
@@ -69,6 +47,8 @@ get_header(); ?>
 </div>
 <div>
 	<div class="backgroundwidth" id="image-content6" style="background-image: url('<?php the_field('background_image'); ?>');"></div>
+</div>
+
 </div>
 
 <?php

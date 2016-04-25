@@ -81,8 +81,8 @@ endif;
 <ul id="ctainformation-adoption">
 			<li><?php the_field( 'cta_title' ); ?></li>
 			<li><?php the_field( 'cta_content' ); ?></li>
+			<li><a class="ctabutton" href="<?php the_field( 'cta_link_button' ); ?>">Donate</a></li>
 		</ul>
-		<a class="ctabutton" href="<?php the_field( 'cta_link_button' ); ?>">Donate</a>
 </div>
 	<div class="backgroundwidth" id="image-content6" style="background-image: url('<?php the_field('background_image'); ?>');"></div>
 </div>
