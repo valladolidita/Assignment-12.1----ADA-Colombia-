@@ -13,9 +13,11 @@ get_header(); ?>
 			<h2><?php the_field('image_sub_caption_1'); ?></h2>
 			<h2><a href="<?php the_field( 'image_caption_1_link' ); ?>">Frida’s Story</a></h2>
 				
-				<?php $image = get_field('image_1');?>
+				<?php $image = get_field('image_1');
+				$imgurl = $image[url];
+				?>
 
-		<div id="image-content1" style="background-image: url('<?php the_field('image_1'); ?>');">
+		<div id="image-content1" style="background-image: url('http://<?php echo $imgurl; ?>');">
 	</div>
 	</div>	
 	</div>
@@ -27,9 +29,11 @@ get_header(); ?>
 			<h2><?php the_field('image_sub_caption_2'); ?></h2>
 			<h2><a href="<?php the_field( 'image_caption_2_link' ); ?>">Read about the adoption process</a></h2>
 				
-				<?php $image = get_field('image_2');?>
+				<?php $image = get_field('image_2');
+				$imgurl = $image[url];
+				?>
 
-		<div id="image-content2" style="background-image: url('<?php the_field('image_2'); ?>');">
+		<div id="image-content2" style="background-image: url('http://<?php echo $imgurl; ?>');">
 	</div>
 	</div>	
 	</div>
@@ -41,9 +45,11 @@ get_header(); ?>
 			<h2><?php the_field('image_sub_caption_3'); ?></h2>
 			<h2><a href="<?php the_field( 'image_caption_2_link' ); ?>">Volunteer with us</a></h2>
 				
-				<?php $image = get_field('image_3');?>
+				<?php $image = get_field('image_3');
+				$imgurl = $image[url];
+				?>
 
-		<div id="image-content3" style="background-image: url('<?php the_field('image_3'); ?>');">
+		<div id="image-content3" style="background-image: url('http://<?php echo $imgurl; ?>');">
 	</div>
 	</div>	
 	</div>
