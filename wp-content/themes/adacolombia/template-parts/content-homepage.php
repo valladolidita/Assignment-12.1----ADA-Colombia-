@@ -31,6 +31,7 @@ get_header(); ?>
 				
 				<?php $image = get_field('image_2');
 				$imgurl = $image[url];
+				var_dump($image)
 				?>
 
 		<div id="image-content2" style="background-image: url('http://<?php echo $imgurl; ?>');">
