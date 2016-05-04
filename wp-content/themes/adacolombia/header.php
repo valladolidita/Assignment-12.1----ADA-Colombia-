@@ -19,6 +19,7 @@
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
+<link rel="icon" href="favicon-32x32.png">
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
@@ -40,7 +41,7 @@
 
 <body <?php body_class(); ?>>
 	<header>
-		<h1><img src="http://<?php bloginfo("template_url"); ?>/img/adaiconpurple.png" alt="ADA Colombia" height="40" width="40"></h1>
+		<h1><img src="<?php bloginfo("template_url"); ?>/img/adaiconpurple.png" alt="ADA Colombia" height="40" width="40"></h1>
 		<h1><?php bloginfo( 'name' ); ?></h1>
 		<h1><?php bloginfo( 'description' ); ?></h1>
 			<nav>

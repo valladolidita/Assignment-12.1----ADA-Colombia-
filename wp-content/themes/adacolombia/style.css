@@ -395,7 +395,7 @@ ol {
 }
 
 ul {
-	list-style: disc;
+	list-style: none;
 }
 
 ol {
@@ -959,27 +959,32 @@ header h1 {
 	height: 100%;
 	width: 100%;
 	background-repeat: repeat;
-	z-index: -1;
+	z-index: -2;
 	background-size: cover;
 }
 
 #image-content1 {
 	top: 0;
 	right: 0;
-	width: 70%;
-	height: auto;
+	height: 2000px;
+	width: 800px;
+	z-index: -1;
 }
 
 #image-content2 {
-	top: 850px;
+	top: 0;
 	right: 0;
-	height: 500px;
-	width: 500px;
+	height: 2000px;
+	width: 800px;
+	z-index: -1;
 }
 
 #image-content3 {
-	top: 1699px;
+	top: 0;
 	right: 0;
+	height: 2000px;
+	width: 800px;
+	z-index: -2;
 }
 
 #image-content4 {
@@ -1200,6 +1205,61 @@ float:left;
 	padding-bottom: 30px;
 }
 
+#adoptionpage1 #content-area #cta_repeater ul {
+	text-align: center;
+	list-style-type: none;
+}
+
+#adoptionpage1 #content-area #cta_repeater li:nth-child(4) {
+	line-height: 1em;
+    margin: 2em;
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#featurecontent1 {
+	background-color: #85c446;
+	border-top: solid #00a160 14px;
+	z-index: 5;
+	padding-left: 2em;
+}
+
+#featurecontent1 h1, h2{
+	color: white;
+}
+
+#featurecontent1 h1 {
+	color: white;
+	margin-bottom: 0;
+	font-size: 1.85em;
+	margin-top: .25em;
+}
+
+#featurecontent1 h2{
+	margin-top: 0;
+	color: white;
+	font-weight: 400;
+	line-height: 1.25em;
+	font-size: 1.25em;
+}
+
+#featurecontent1 h3 a {
+	color: #00a160;
+	font-weight: 400;
+	line-height: 1em;
+	font-size: 1em;
+	text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 900;
+}
+
+ #cta_repeater a {
+    color: #903F97;
+}
+
 #petinformation, #ctainformation-adoption {
 	list-style-type: none;
 	font-family: 'bitter';
@@ -1313,18 +1373,37 @@ float:left;
 	color: #404040;
 }
 
-.ctabutton {
-	line-height: 1em;
-	padding: .50em 1em;
+#ctabutton {
+	line-height: 1.75em;
+	margin: 1em;
+	padding: 1em;
 	font-family: 'Lato';
 	font-weight: 900;
 	font-size: .85em;
 	text-transform: uppercase;
 	color: #903F97;
+	text-align: center;
 }
 
-.ctabutton a {
+#ctabutton a {
 	color: #903F97;
+}
+
+#cta_title {
+	line-height: 1em;
+	padding: .50em 1em;
+	font-family: 'Bitter';
+	font-weight: 700;
+	font-size: 1.75em;
+	text-transform: capitalize;
+	color: #903F97;
+	text-align: center;
+}
+
+#cta_subtitle {
+	text-align: center;
+	font-size: 1.25em;
+	line-height: 1.15em;
 }
 
 

@@ -46,7 +46,7 @@ get_header(); ?>
 
 </div>
 <div>
-	<div class="backgroundwidth" id="image-content6" style="background-image: url('<?php the_field('background_image'); ?>');"></div>
+	<div class="backgroundwidth" id="image-content6" style="background-image: url('<?php the_field('background'); ?>');"></div>
 </div>
 
 </div>
