@@ -65,8 +65,8 @@ if( have_rows('cta_repeater1') ):
  	// loop through the rows of data
     while ( have_rows('cta_repeater1') ) : the_row();
 ?>
-		<ul id="cta_repeater">
-			<li><img src="<?php echo get_bloginfo('template_url') ?>/img/white-cat-icon.png" alt="View Cats" height="175" width="175"></li>
+		<ul id="cta_repeater1">
+			<li><img src="<?php echo get_bloginfo('template_url') ?>/img/white-cat-icon.png" alt="View Cats" height="155" width="155"></li>
 			<li id="cta_title"><?php the_sub_field( 'cta_title1' ); ?></li>
 			<li id="cta_subtitle"><?php the_sub_field( 'cta_subtitle1' ); ?></li>
 			<li><a href="<?php the_field( 'cta_link_button1' ); ?>">View Cats</a></li>
@@ -87,8 +87,8 @@ if( have_rows('cta_repeater2') ):
  	// loop through the rows of data
     while ( have_rows('cta_repeater2') ) : the_row();
 ?>
-		<ul id="cta_repeater">
-			<li><img src="<?php echo get_bloginfo('template_url') ?>/img/white-dog-icon.png" alt="View Dogs" height="175" width="175"></li>
+		<ul id="cta_repeater2">
+			<li><img src="<?php echo get_bloginfo('template_url') ?>/img/white-dog-icon.png" alt="View Dogs" height="155" width="155"></li>
 			<li id="cta_title"><?php the_sub_field( 'cta_title2' ); ?></li>
 			<li id="cta_subtitle"><?php the_sub_field( 'cta_subtitle2' ); ?></li>
 			<li><a href="<?php the_field( 'cta_link_button2' ); ?>">View Dogs</a></li>
@@ -109,8 +109,8 @@ if( have_rows('cta_repeater3') ):
  	// loop through the rows of data
     while ( have_rows('cta_repeater3') ) : the_row();
 ?>
-		<ul id="cta_repeater">
-			<li><img src="<?php echo get_bloginfo('template_url') ?>/img/white-paw-icon.png" alt="Find out more about Volunteering" height="175" width="175"></li>
+		<ul id="cta_repeater3">
+			<li><img src="<?php echo get_bloginfo('template_url') ?>/img/white-paw-icon.png" alt="Find out more about Volunteering" height="155" width="155"></li>
 			<li id="cta_title"><?php the_sub_field( 'cta_title3' ); ?></li>
 			<li id="cta_subtitle"><?php the_sub_field( 'cta_subtitle3' ); ?></li>
 			<li><a href="<?php the_field( 'cta_link_button3' ); ?>">Find out More</a></li>

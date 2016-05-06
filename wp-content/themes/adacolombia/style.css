@@ -918,6 +918,11 @@ header h1 {
 	/*border: solid red 2px;*/
 }
 
+header #page-title h1 {
+	background-color: white;
+	color: #691269;
+}
+
 /*--------------------------------------------------------------
 ## Header Nav (primary-menu)
 --------------------------------------------------------------*/
@@ -1198,26 +1203,42 @@ float:left;
 }
 
 #adoptionpage1 #content-area {
-	float:left;
-	width: 40%;
-	padding-left: 2em;
 	border-top: solid #903F97 14px;
 	padding-bottom: 30px;
 }
 
-#adoptionpage1 #content-area #cta_repeater ul {
+#cta_repeater1, #cta_repeater2, #cta_repeater3 {
+	width: 33%;
+	float: left;
+	padding: 2em;
+}
+
+#adoptionpage1 #content-area #cta_repeater1 ul, #cta_repeater2 ul {
 	text-align: center;
 	list-style-type: none;
 }
 
-#adoptionpage1 #content-area #cta_repeater li:nth-child(4) {
+#cta_repeater1, #cta_repeater2, #cta_repeater3 {
+	margin: 0;
+}
+
+#cta_repeater1 li:nth-child(1), #cta_repeater2 li:nth-child(1), #cta_repeater3 li:nth-child(1) {
+	text-align: center;
+}
+
+#adoptionpage1 #content-area #cta_repeater1 li:nth-child(4) a, #cta_repeater2 li:nth-child(4) a, #cta_repeater3 li:nth-child(4) a {
 	line-height: 1em;
     margin: 2em;
     font-family: 'Lato';
     font-weight: 900;
     font-size: 1em;
     text-transform: uppercase;
-    text-align: center;
+    color: #903F97;
+}
+
+#adoptionpage1 #content-area #cta_repeater1 li:nth-child(4), #cta_repeater2 li:nth-child(4), #cta_repeater3 li:nth-child(4) {
+	text-align: center;
+	margin: 1em;
 }
 
 #featurecontent1 {
@@ -1256,7 +1277,7 @@ float:left;
     font-weight: 900;
 }
 
- #cta_repeater a {
+#cta_repeater a {
     color: #903F97;
 }
 
