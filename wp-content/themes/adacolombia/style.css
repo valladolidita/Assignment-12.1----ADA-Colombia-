@@ -601,7 +601,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-	color: white;
+	color: #691269;
 }
 
 a:focus {
@@ -759,11 +759,11 @@ a:active {
 .sub-menu  li a {
   display: block;
   padding: 0;
-  color: black;
+  color: white;
 }
 
 .sub-menu li a:hover {
-  color: white;
+  color: #691269;
   text-decoration: none;
 }
 
@@ -954,6 +954,11 @@ header #page-title h1 {
 
 #primary-menu li:nth-child(4){
 	background-color: #691269;
+
+}
+
+#primary-menu li:nth-child(4) a:hover {
+	color: #903F97;
 
 }
 /*--------------------------------------------------------------
@@ -1285,6 +1290,10 @@ float:left;
 	text-transform: uppercase;
     font-family: 'Lato';
     font-weight: 900;
+}
+
+#featurecontent1 h3 a:hover {
+	color: black;
 }
 
 #cta_repeater a {
