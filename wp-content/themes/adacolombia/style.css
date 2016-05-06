@@ -1226,6 +1226,11 @@ float:left;
 	text-align: center;
 }
 
+#cta_repeater1 li:nth-child(3), #cta_repeater2 li:nth-child(3), #cta_repeater3 li:nth-child(3) {
+	font-size: 1.20em;
+	line-height: 1.20em;
+}
+
 #adoptionpage1 #content-area #cta_repeater1 li:nth-child(4) a, #cta_repeater2 li:nth-child(4) a, #cta_repeater3 li:nth-child(4) a {
 	line-height: 1em;
     margin: 2em;
@@ -1238,7 +1243,7 @@ float:left;
 
 #adoptionpage1 #content-area #cta_repeater1 li:nth-child(4), #cta_repeater2 li:nth-child(4), #cta_repeater3 li:nth-child(4) {
 	text-align: center;
-	margin: 1em;
+	margin: 1.25em;
 }
 
 #featurecontent1 {
