@@ -1163,7 +1163,7 @@ header #page-title h1 {
 --------------------------------------------------------------*/
 #adoptionpage1 {
 	background-color: white;
-	/*height: 100%;*/
+	height: 80%;
 	/*width: 80%;*/
 	margin: 3% 8%;
 	padding: 30px;
@@ -1172,7 +1172,7 @@ header #page-title h1 {
 	float:left;
 	width: 60%;
     margin: 0;
-    padding: 0 3% 30px 0;
+    padding: 0 3% 20% 0;
     position: relative;
     border-top: solid #903F97 14px;
 }
@@ -1240,6 +1240,10 @@ float:left;
     font-size: 1em;
     text-transform: uppercase;
     color: #903F97;
+}
+
+#adoptionpage1 #content-area #cta_repeater1 li:nth-child(4) a:hover, #cta_repeater2 li:nth-child(4) a:hover, #cta_repeater3 li:nth-child(4) a:hover {
+    color: #691269;
 }
 
 #adoptionpage1 #content-area #cta_repeater1 li:nth-child(4), #cta_repeater2 li:nth-child(4), #cta_repeater3 li:nth-child(4) {
@@ -1404,7 +1408,7 @@ padding-bottom: 1em;
 	color: #404040;
 }
 
-#ctabutton {
+#ctainformation-adoption #ctabutton {
 	line-height: 1.75em;
 	margin: 1em;
 	padding: 1em;
@@ -1418,6 +1422,10 @@ padding-bottom: 1em;
 
 #ctabutton a {
 	color: #903F97;
+}
+
+#ctabutton a:hover {
+	color: #691269;
 }
 
 #cta_title {
@@ -1478,6 +1486,10 @@ padding-bottom: 1em;
 	text-align: center;
 }
 
+#colophon.site-footer a:hover{
+	color: #903f97;
+}
+
 #colophon.site-footer ul{
 	padding-left: 0;
 	border-bottom: 10%;
@@ -1504,47 +1516,6 @@ padding-bottom: 1em;
 	text-transform: capitalize;
 	padding: 0 15%;
 }
-
-/*--------------------------------------------------------------
-## Subpage Footer
---------------------------------------------------------------*/
-/*#colophon-subpage.site-footer {
-	clear:both;
-	position: absolute;
-	list-style-type: none;
-	top: 877px; 
-	left: 0;
-	background-color: rgba(0,0,0,0.7);
-	margin-top: 2em;
-	font-size: .75em;
-	text-transform: capitalize;
-	z-index: 2;
-	width: 100%;
-	height: 5em;
-	padding: 1em 0 0 0;
-	font-family: 'open sans';
-}
-
-#colophon-subpage.site-footer ul{
-	padding-left: 0;
-}
-
-#colophon-subpage.site-footer li:nth-child(4){
-	padding-right: 27em;
-}
-
-#colophon-subpage.site-footer li{
-	color: white;
-	opacity: 0.75;
-	text-decoration: none;
-	display: inline;
-	padding: 0 .75em;
-}
-
-#colophon-subpage.site-footer li:nth-child(4){
-	padding-right: 39em;
-	color: white;
-}*/
 
 
 /*--------------------------------------------------------------
