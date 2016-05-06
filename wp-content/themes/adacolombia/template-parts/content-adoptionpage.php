@@ -84,7 +84,7 @@ endif;
 			<li><a id="ctabutton" href="<?php the_field( 'cta_link_button' ); ?>">Donate</a></li>
 		</ul>
 </div>
-	<div class="backgroundwidth" id="image-content6" style="background-image: url('<?php the_field('background_image'); ?>');"></div>
+<!--	<div class="backgroundwidth" id="image-content6" style="background-image: url('<?php the_field('background_image'); ?>');"></div> -->
 </div>
 
 <?php
