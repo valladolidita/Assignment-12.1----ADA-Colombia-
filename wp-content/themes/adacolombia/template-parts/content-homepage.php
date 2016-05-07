@@ -11,13 +11,10 @@ get_header(); ?>
 				
 			<h1><?php the_field('image_caption_1'); ?></h1>
 			<h2><?php the_field('image_sub_caption_1'); ?></h2>
-			<h3><a href="<?php the_field( 'image_caption_1_link' ); ?>">Frida’s Story</a></h3>
-				
-	<!--			<?php $image = get_field('image_1');
-				$imgurl = $image[url];
-				?>-->	
+			<h3><a href="<?php the_field( 'image_caption_1_link' ); ?>">Frida’s Story</a></h3>			
+
 	</div>
-	<div id="image-content1" img src="<?php echo get_bloginfo('template_url') ?>/img/oreo1.jpg" alt="Frida, the cat">
+	<div id="image-content1" img src="<?php echo get_bloginfo('template_url') ?>/img/frida.jpg" alt="Frida, the cat">
 	</div>	
 	</div>
 

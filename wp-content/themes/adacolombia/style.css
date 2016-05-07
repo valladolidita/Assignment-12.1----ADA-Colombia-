@@ -980,6 +980,7 @@ header #page-title h1 {
 	width: 100%;
 	z-index: 1;
 	color: grey;
+	position: relative; 
 }
 
 #image-content2 {
@@ -1016,120 +1017,7 @@ header #page-title h1 {
 /*--------------------------------------------------------------
 ## Homepage Background Image Text
 --------------------------------------------------------------*/
-#content1 h1 {
-	position: absolute;
-	top: 500px;
-	left: 620px;
-	color: white;
-	text-transform: uppercase;
-	font-family: 'arvo';
-	font-weight: 700;
-	font-size: 1.5em;
-}
 
-#content1 h2 {
-	position: absolute;
-	top: 501px;
-	left: 685px;
-	color: white;
-	font-family: 'open sans condensed';
-	font-weight: 300;
-	font-size: 2.55em;
-	line-height: 1em;
-	text-transform: lowercase;
-}
-
-#content2 h1 {
-	position: absolute;
-	top: 1300px;
-	left: 200px;
-	color: white;
-	text-transform: uppercase;
-	font-family: 'arvo';
-	font-weight: 700;
-	font-size: 1.75em;
-}
-
-#content2 h2 {
-	position: absolute;
-	top: 1305px;
-	left: 170px;
-	color: white;
-	font-family: 'open sans condensed';
-	font-weight: 300;
-	font-size: 2.55em;
-	line-height: 1em;
-	text-transform: lowercase;
-}
-
-#content3 h1 {
-	position: absolute;
-	top: 2320px;
-	left: 400px;
-	color: black;
-	text-transform: uppercase;
-	font-family: 'arvo';
-	font-weight: 700;
-	font-size: 1.75em;
-}
-
-#content3 h2 {
-	position: absolute;
-	top: 2325px;
-	left: 450px;
-	color: black;
-	font-family: 'open sans condensed';
-	font-weight: 300;
-	font-size: 2.55em;
-	line-height: 1em;
-	text-transform: lowercase;
-}
-
-#content4 h1 {
-	position: absolute;
-	top: 3045px;
-	left: 625px;
-	color: white;
-	text-transform: uppercase;
-	font-family: 'arvo';
-	font-weight: 700;
-	font-size: 1.55em;
-}
-
-#content4 h2 {
-	position: absolute;
-	top: 3045px;
-	left: 269px;
-	color: white;
-	font-family: 'open sans condensed';
-	font-weight: 300;
-	font-size: 2.55em;
-	line-height: 1em;
-	text-transform: lowercase;
-}
-
-#content5 h1 {
-	position: absolute;
-	top: 3680px;
-	left: 50px;
-	color: white;
-	text-transform: uppercase;
-	font-family: 'arvo';
-	font-weight: 700;
-	font-size: 1.55em;
-}
-
-#content5 h2 {
-	position: absolute;
-	top: 3680px;
-	left: 40px;
-	color: white;
-	font-family: 'open sans condensed';
-	font-weight: 300;
-	font-size: 2.55em;
-	line-height: 1.15em;
-	text-transform: lowercase;
-}
 
 /*--------------------------------------------------------------
 ## Posts and pages
@@ -1261,6 +1149,7 @@ float:left;
 	border-top: solid #00a160 14px;
 	z-index: 5;
 	padding: 2em;
+	position: absolute;
 }
 
 #featurecontent1 h1, h2{
