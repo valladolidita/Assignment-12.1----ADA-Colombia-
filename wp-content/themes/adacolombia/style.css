@@ -544,10 +544,13 @@ textarea {
    ========================================================================== */
    
 nav {
-/*	 float:left;*/
+	text-align: center;
+	margin: 2% 29%;
 }
 nav ul {
 	text-align:center;
+	padding: 3%;
+	margin: 2;
 }
 nav ul li {
 	float:left;
@@ -576,9 +579,7 @@ nav ul li ul li a {
 	padding:15px 10px;
 	color:#444;
 }
-nav ul li ul li:hover a {
-/*	background:#F7F7F7;*/
-}
+
 nav ul li ul.fallback {
 	display:none;
 }
@@ -926,6 +927,8 @@ header #page-title h1 {
 /*--------------------------------------------------------------
 ## Header Nav (primary-menu)
 --------------------------------------------------------------*/
+
+
 #primary-menu {
 	/*position: fixed;*/
 	list-style-type: none;
@@ -935,21 +938,28 @@ header #page-title h1 {
 	font-size: 1em;
 	font-family: 'lato';
 	text-align: center;
-	padding: 5%;
-	/*border: solid red 2px;*/
+	padding: 0;
 	height: auto;
+	overflow: auto;
+	margin: 0;
+	width: 100%;
 }
 
 #primary-menu ul {
 		/*width: 100%;*/
+	display: inline-block;
+	text-transform: capitalize;
+
 }
 
 #primary-menu li{
 	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
-	display: inline;
-	padding: 1% 2%;
+	display: inline-block;
+	padding: 0 3%;
+	text-align: center;
+	margin: 0;
 }
 
 #primary-menu li:nth-child(4){
@@ -978,9 +988,8 @@ header #page-title h1 {
 	right: 0;
 	height: 600px;
 	width: 100%;
-	z-index: 1;
-	color: grey;
 	position: relative; 
+	margin-bottom: 5em;
 }
 
 #image-content2 {
@@ -1062,22 +1071,22 @@ header #page-title h1 {
 	padding: 30px;
 }
 #image-gallery {
-	float:left;
-	width: 60%;
+	width: 100%;
     margin: 0;
-    padding: 0 3% 20% 0;
+    padding: 0 3%;
     position: relative;
     border-top: solid #903F97 14px;
+    overflow: auto;
+    text-align: center;
 }
 #image-gallery ul{
 	list-style-type: none;
-	float: right;
 	margin: 0;
     padding: 0;
 }
 #thumbnail-gallery {
 /*  position: absolute;*/
-float:left;
+clear: both;
   bottom: 0;
   right: 0;
   height: 20%;
@@ -1099,6 +1108,7 @@ float:left;
 #adoptionpage1 #content-area {
 	border-top: solid #903F97 14px;
 	padding-bottom: 30px;
+	clear: both;
 }
 
 #cta_repeater1, #cta_repeater2, #cta_repeater3 {
@@ -1148,8 +1158,11 @@ float:left;
 	background-color: #85c446;
 	border-top: solid #00a160 14px;
 	z-index: 5;
-	padding: 2em;
+	padding: 1em;
 	position: absolute;
+	overflow: auto;
+	bottom: 0;
+	width: 40%;
 }
 
 #featurecontent1 h1, h2{
@@ -1343,6 +1356,22 @@ padding-bottom: 1em;
 	line-height: 1.15em;
 }
 
+/*--------------------------------------------------------------
+## gallerypage template
+--------------------------------------------------------------*/
+#gallerypage1 {
+	padding: 30px;
+	margin: 15.469px 41.266px;
+}
+
+#gallerypage1 ul{
+	padding: 0;
+	margin: 0;
+}
+
+.slide {
+	border: solid #00a160 14px;
+}
 
 /*--------------------------------------------------------------
 ## Asides

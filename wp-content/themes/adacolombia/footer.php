@@ -14,7 +14,6 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<nav>
 			<ul>
 				<li><a href="#">Adopt</a></li>
 				<li><a href="#">Volunteer</a></li>
@@ -25,7 +24,6 @@
 				<li><a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
 				<li><a href="#"><i class="fa fa-vimeo-square fa-2x" aria-hidden="true"></i></a></li>
 			</ul>
-		</nav>
 
 	</footer><!-- #colophon -->
 	<div id="copy-right">

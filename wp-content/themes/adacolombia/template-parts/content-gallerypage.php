@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-<div id="adoptionpage1">
+<div id="gallerypage1">
 
 <?php if( have_rows('gallerypage_thumbnail') ): ?>
 

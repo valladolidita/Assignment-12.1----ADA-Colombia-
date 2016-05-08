@@ -5,7 +5,7 @@
 get_header(); ?>
 
 	<div id="adoptionpage1"> 
-
+		<div id="image-content1"><img src="<?php echo get_bloginfo('template_url') ?>/img/frida.jpg" alt="Frida, the cat">
 	<div id="primary1" class="content-area">
 		<div id="featurecontent1">
 				
@@ -14,7 +14,7 @@ get_header(); ?>
 			<h3><a href="<?php the_field( 'image_caption_1_link' ); ?>">Frida’s Story</a></h3>			
 
 	</div>
-	<div id="image-content1" img src="<?php echo get_bloginfo('template_url') ?>/img/frida.jpg" alt="Frida, the cat">
+	
 	</div>	
 	</div>
 
@@ -90,9 +90,6 @@ endif;
 ?>	
 </div>
 
-<div>
-	<div </div>
-</div>
 
 <?php
 get_footer();
